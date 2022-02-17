@@ -230,7 +230,7 @@ header {
 }
 
 .banner__heading h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-top: 1em;
   margin-bottom: 0.8em;
   margin-top: 5em;
@@ -266,8 +266,8 @@ header {
 @media (min-width: 62em) {
   .banner__heading {
     text-align: initial;
-    margin: 10px 0 0;
-    padding-top: 0;
+    margin: 20px 0 0;
+    padding-top: 70px;
     
   }
   .banner__socials {
