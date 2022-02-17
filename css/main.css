@@ -75,7 +75,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
-  padding-left: 100px;
+  padding-left: 20px;
 }
 
 /* logo */
@@ -208,7 +208,7 @@ header {
 /* === Banner === */
 #banner {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
@@ -230,8 +230,8 @@ header {
 }
 
 .banner__heading h1 {
-  font-size: 2rem;
-  padding-top: 4em;
+  font-size: 1.5rem;
+  padding-top: 1em;
   margin-bottom: 0.8em;
   margin-top: 5em;
 }
@@ -290,7 +290,7 @@ header {
 #things h2 {
   text-align: center;
   color: var(--gray);
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .things__dec {
@@ -312,11 +312,11 @@ header {
 
 .things__item {
   margin: 3em 0;
-  padding:80px;
+  padding:50px;
 }
 
 .things__item img {
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 }
 
 .things__item--heading {
@@ -366,7 +366,7 @@ header {
 
 /* === Works === */
 #works {
-  padding-top: 10em;
+  padding-top: 2em;
   position: relative;
   overflow-x: hidden;
 }
@@ -398,7 +398,7 @@ header {
 }
 
 .works__img--single:nth-child(odd) {
-  padding-top: 5em;
+  padding-top: 1em;
 }
 
 .works__img--single:nth-child(3) {
@@ -436,7 +436,7 @@ header {
 #footer {
   overflow: hidden;
   position: relative;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
 }
@@ -444,7 +444,7 @@ header {
 .footer__img {
   position: absolute;
   top: 0;
-  right: 200px;
+  right: 120px;
   transform: translateX(25%);
   z-index: -1;
 }
