@@ -266,8 +266,9 @@ header {
 @media (min-width: 62em) {
   .banner__heading {
     text-align: initial;
-    margin: 0;
+    margin: 10px 0 0;
     padding-top: 0;
+    
   }
   .banner__socials {
     justify-content: flex-start;
@@ -278,6 +279,8 @@ header {
   .banner__img {
     width: 40%;
   }
+
+  
 }
 
 /* === Things === */
