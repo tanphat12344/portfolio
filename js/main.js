@@ -36,12 +36,28 @@ carouselN();
 
 function carouselN() {
   var j;
-  var z = document.getElementsByClassName("myslai");
-  for (j = 0; j < z.length; j++) {
-    z[j].style.display = "none";  
+  var y = document.getElementsByClassName("myslai");
+  for (j = 0; j < y.length; j++) {
+    y[j].style.display = "none";  
   }
   myIndexN++;
-  if (myIndexN > z.length) {myIndexN = 1}    
-  z[myIndexN-1].style.display = "block";  
+  if (myIndexN > y.length) {myIndexN = 1}    
+  y[myIndexN-1].style.display = "block";  
   setTimeout(carouselN, 9000);    
 }
+
+var myIndexM = 0;
+carouselM();
+
+function carouselM() {
+  var k;
+  var z = document.getElementsByClassName("sliderpj3");
+  for (k = 0; k < z.length; k++) {
+    z[k].style.display = "none";  
+  }
+  myIndexM++;
+  if (myIndexM > z.length) {myIndexM = 1}    
+  z[myIndexM-1].style.display = "block";  
+  setTimeout(carouselM, 3000); // Change image every 2 seconds
+};
+
